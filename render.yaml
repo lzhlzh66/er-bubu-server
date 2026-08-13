@@ -8,8 +8,6 @@ services:
     startCommand: node server.js
     healthCheckPath: /api/health
     envVars:
-      - key: PORT
-        value: 10000
       - key: JWT_SECRET
         generateValue: true
       - key: CORS_ORIGIN
